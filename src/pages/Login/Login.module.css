@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  min-width: 10rem;
+  width: 25rem;
+  background: var(--gray-600);
+  border-radius: 8px;
+  padding: 3rem;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content form input {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 0;
+}
+
+.content form button {
+  padding: 1rem;
+  background: var(--green-500);
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--white);
+  width: 100%;
+}
+
+.grupButton {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.content form button:hover {
+  background: var(--green-300);
+}
